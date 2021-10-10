@@ -1,0 +1,30 @@
+[
+  {
+    "name": "page1",
+    "path": "/page1",
+    "component": "/Users/klastrom/nuxt-app/pages/page1.vue",
+    "chunkName": "pages/page1",
+    "_name": "_62dfe4b7"
+  },
+  {
+    "name": "page2",
+    "path": "/page2",
+    "component": "/Users/klastrom/nuxt-app/pages/page2.vue",
+    "chunkName": "pages/page2",
+    "_name": "_62edfc38"
+  },
+  {
+    "name": "page3",
+    "path": "/page3",
+    "component": "/Users/klastrom/nuxt-app/pages/page3.vue",
+    "chunkName": "pages/page3",
+    "_name": "_62fc13b9"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/klastrom/nuxt-app/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_00a5f607"
+  }
+]
