@@ -4,6 +4,12 @@
         "dev": "nuxt --spa"
     },
     "dependencies": {
+        "node-loader": "^11.0.1",
+        "node-sass": "^5.0.0",
         "nuxt": "^2.15.8"
+    },
+    "devDependencies": {
+        "sass": "^1.42.1",
+        "sass-loader": "^12.1.0"
     }
 }

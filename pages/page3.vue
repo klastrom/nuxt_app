@@ -4,15 +4,24 @@
       <h1>セクション3</h1>
       <p>texttexttexttexttexttexttexttexttexttexttexttext</p>
     </section>
+    <my-login />
   </div>
 </template>
 
 <script>
+import MyLogin from "../components/MyLogin";
+
 export default {
-  name: "page1.vue"
+  components: {
+    MyLogin
+  }
 }
+
 </script>
 
 <style scoped>
+section {
+  background: #ff4500;
+}
 
 </style>
