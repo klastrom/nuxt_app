@@ -1,7 +1,10 @@
 {
     "name": "app",
     "scripts": {
-        "dev": "nuxt --spa"
+        "dev": "nuxt --spa",
+        "build": "nuxt build",
+        "generate": "nuxt generate",
+        "start": "nuxt start"
     },
     "dependencies": {
         "node-loader": "^11.0.1",

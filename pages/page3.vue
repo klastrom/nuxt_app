@@ -1,5 +1,6 @@
 <template>
   <div>
+    <my-header />
     <section>
       <h1>セクション3</h1>
       <p>texttexttexttexttexttexttexttexttexttexttexttext</p>
@@ -10,10 +11,12 @@
 
 <script>
 import MyLogin from "../components/MyLogin";
+import MyHeader from "../components/MyHeader";
 
 export default {
   components: {
-    MyLogin
+    MyLogin,
+    MyHeader
   }
 }
 

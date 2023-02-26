@@ -1,0 +1,152 @@
+.idea
+.sass-cache
+.DS_Store
+node_modules
+bower_components
+public
+guide
+setting.js
+node/*
+
+
+# DBサーバに接続している箇所を無視。
+# 暫定的にローカルDBに接続させるように変更。
+# 最終的には次のようにする。
+# (1) DBサーバに接続している処理は1ファイルにまとめる。
+# (2) 実行環境に応じて接続するDBサーバを切替える(本番、開発、STG等）
+
+################################################################################
+# 開発課
+# PHP, Smarty, etc.
+################################################################################
+
+templates_c/
+var/www/www.fishing-v.jp/https/choka/templates_c/*
+var/www/www.fishing-v.jp/https/admin/tackle_manager/kari_img/*
+
+################################################################################
+# 運用課
+# node_modules, etc.
+################################################################################
+
+# Node
+node_modules/
+bk/
+
+################################################################################
+# 各課共通
+# OS/IDE生成, 圧縮ファイル, ログファイル, SQLファイル, etc.
+################################################################################
+
+# ドットファイル
+.*
+
+# ドットファイル例外
+!.ht*
+!.gitignore
+!.gitkeep
+!.user.ini
+
+# 画像
+var/www/www.fishing-v.jp/https/premium/*.html
+var/www/www.fishing-v.jp/https/premium/img/*
+var/www/www.fishing-v.jp/https/premium/images/*
+var/www/www.fishing-v.jp/https/present_form/img/*
+var/www/www.fishing-v.jp/https/admin/present_manage/temp_img/*
+upload/
+
+# 動画
+*.3g2
+*.3gp
+*.asf
+*.asx
+*.avi
+*.flv
+*.mov
+*.mpeg
+*.mpg
+*.ogg
+*.ogv
+*.rm
+*.swf
+*.vob
+*.wmv
+*.webm
+var/www/www.fishing-v.jp/https/premium/video/*
+
+# 音声
+*.wav
+*.mp3
+*.wma
+
+# 3DCG
+*.3dm
+*.max
+
+# CMSでアップロードした画像
+https/upload/
+
+# OS (Windows)
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OS (Mac)
+__MACOSX
+thumbs.db
+
+# テンポラリファイル
+*.tmp
+
+# キャッシュファイル
+*.cache
+*.sass-cache
+*.dat
+var/www/www.fishing-v.jp/https/cache/*
+var/www/www.fishing-v.jp/https/sns/cache/*
+
+
+# バックアップファイル
+*~
+*.orig
+*.bak
+
+# 圧縮ファイル
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# ログ・ファイル
+*.log
+
+# SQLファイル
+*.sql
+
+# Office
+~$*
+*.tmp
+
+# コンパイルされた実行ファイル
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.map
+
+# IDE, エディタ
+.vscode/*
+.idea
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+tags
+
