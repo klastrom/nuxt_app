@@ -16,12 +16,13 @@ import MyHeader from "../components/MyHeader";
 export default {
   components: {
     MyHeader,
-    MyLogin
-  }
-}
-
+    MyLogin,
+  },
+};
 </script>
 
 <style scoped>
-
+body {
+  background: #eee;
+}
 </style>
